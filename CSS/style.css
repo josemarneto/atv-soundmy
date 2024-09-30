@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*==================================
+                Geral
+====================================*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main {
+    margin: 0 15px 0 15px;
+    text-align: center;
+}
+a.botao{
+    background-color: #0e8388;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: inline-block;
+}
+/*==================================
+                Topo
+====================================*/
+
+header {
+    display: flex;/*Colocar os elementos lado a lado*/
+    justify-content: space-between;/*Separar os textos*/
+    padding: 3vw 10vw 5vw ;
+}
+header h1 {
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+header nav ul {
+    display: flex;
+}
+header nav ul li {
+    padding: 0 20px 0 0;
+}
+/*==================================
+                Banner
+====================================*/
+main section.banner h2{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+main section.banner p {
+    padding: 15px;
+}
+main p.texto1 {
+    color: #888888;
+    font-size: 0.8rem;
+}
+/*==================================
+                Product
+====================================*/
+main section.product{
+    padding: 15px;
+}
+section.product {
+    background-color: #cbe4de;
+}
+main section.product h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+main section.product ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main section.product ul li {
+    width: 30%;
+    justify-content: space-around;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px 20px 0 0
+}
+main section.product p.p1 {
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #888888;
+}
+main section.product ul li p{
+    color: #888888;
+}
