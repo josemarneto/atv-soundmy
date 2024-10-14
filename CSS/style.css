@@ -106,8 +106,8 @@ main p.texto1 {
 ====================================*/
 main section.product{
     padding: 15px;
-}
-section.product {
+    text-align: center;
+    padding: 3vw 10vw 3vw 10vw;
     background-color: #cbe4de;
 }
 main section.product h2 {
@@ -117,14 +117,17 @@ main section.product h2 {
 main section.product ul {
     display: flex;
     flex-wrap: wrap;
+    /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
     justify-content: center;
+    margin: 0 15vw 0 15vw;
 }
 main section.product ul li {
     width: 30%;
     justify-content: space-around;
     background-color: white;
     border-radius: 15px;
-    margin: 20px 20px 0 0
+    /*Arredondamento da borda*/
+    margin: 20px;
 }
 main section.product p.p1 {
     padding: 10px;
