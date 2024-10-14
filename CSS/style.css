@@ -105,9 +105,8 @@ main p.texto1 {
                 Product
 ====================================*/
 main section.product{
-    padding: 15px;
+    padding: 3vw 5vw 3vw 5vw;
     text-align: center;
-    padding: 3vw 10vw 3vw 10vw;
     background-color: #cbe4de;
 }
 main section.product h2 {
@@ -119,7 +118,7 @@ main section.product ul {
     flex-wrap: wrap;
     /*Flex Wrap passa Pra baixo quando não tem mais espaço*/
     justify-content: center;
-    margin: 0 15vw 0 15vw;
+    margin: 0 15px 0 15px;
 }
 main section.product ul li {
     width: 30%;
@@ -127,7 +126,12 @@ main section.product ul li {
     background-color: white;
     border-radius: 15px;
     /*Arredondamento da borda*/
-    margin: 20px;
+    margin: 20px 20px 0 0;
+    padding: 1vw 4vw 1vw 4vw;
+
+
+    box-sizing: border-box;
+    /*Como fazer  os elementos ficarem na mesma linha, usando border-box pro programa fazer*/
 }
 main section.product p.p1 {
     padding: 10px;
@@ -136,5 +140,5 @@ main section.product p.p1 {
 }
 main section.product ul li p{
     color: #888888;
-    padding: 12px;
+    padding: 12px ;
 }
